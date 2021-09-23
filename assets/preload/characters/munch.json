@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				517
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				32,
+				544
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Note Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				350
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Note Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				537
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Note Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-68,
+				483
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Note Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				22,
+				544
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Note Left Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				371
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Note Down Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-14,
+				536
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Note UP Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				475
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Note Right Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				570
+			],
+			"anim": "HEY",
+			"fps": 24,
+			"name": "AYY0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/munch",
+	"position": [
+		-80,
+		430
+	],
+	"healthicon": "munch",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		0
+	],
+	"camera_position": [
+		-130,
+		-390
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

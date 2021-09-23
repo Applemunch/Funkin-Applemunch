@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="munch.png">
+	<!-- sheet made painstakingly by Applemunch Studios -->
+	<SubTexture name="idle0000" x="0" y="0" width = "800" height = "1000"/>
+	<SubTexture name="idle0001" x="800" y="0" width = "800" height = "1000"/>
+	<SubTexture name="idle0002" x="1600" y="0" width = "800" height = "1000"/>
+	<SubTexture name="idle0003" x="2400" y="0" width = "800" height = "1000"/>
+	<SubTexture name="idle0004" x="2400" y="0" width = "800" height = "1000"/>
+	<SubTexture name="idle0005" x="3200" y="0" width = "800" height = "1000"/>
+	<SubTexture name="idle0006" x="3200" y="0" width = "800" height = "1000"/>
+	<SubTexture name="idle0007" x="3200" y="0" width = "800" height = "1000"/>
+
+	<SubTexture name="Note Up00000" x="0" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00001" x="800" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00002" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00003" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00004" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00005" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00006" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00007" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00008" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00009" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00010" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00011" x="1600" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note Up00012" x="1600" y="1000" width = "800" height = "1000"/>
+
+	<SubTexture name="Note Down00000" x="0" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00001" x="800" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00002" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00003" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00004" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00005" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00006" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00007" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00008" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00009" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00010" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00011" x="1600" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down00012" x="1600" y="2000" width = "800" height = "1000"/>
+
+	<SubTexture name="Note Left00000" x="0" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00001" x="800" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00002" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00003" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00004" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00005" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00006" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00007" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00008" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00009" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00010" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00011" x="1600" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left00012" x="1600" y="3000" width = "800" height = "1000"/>
+
+	<SubTexture name="Note Right00000" x="0" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00001" x="800" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00002" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00003" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00004" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00005" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00006" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00007" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00008" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00009" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00010" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00011" x="1600" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right00012" x="1600" y="4000" width = "800" height = "1000"/>
+
+	<SubTexture name="Note UP Miss00000" x="2400" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00001" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00002" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00003" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00004" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00005" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00006" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00007" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00008" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00009" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00010" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00011" x="3200" y="1000" width = "800" height = "1000"/>
+	<SubTexture name="Note UP Miss00012" x="3200" y="1000" width = "800" height = "1000"/>
+
+	<SubTexture name="Note Down Miss00000" x="2400" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00001" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00002" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00003" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00004" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00005" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00006" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00007" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00008" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00009" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00010" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00011" x="3200" y="2000" width = "800" height = "1000"/>
+	<SubTexture name="Note Down Miss00012" x="3200" y="2000" width = "800" height = "1000"/>
+
+	<SubTexture name="Note Left Miss00000" x="2400" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00001" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00002" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00003" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00004" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00005" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00006" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00007" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00008" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00009" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00010" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00011" x="3200" y="3000" width = "800" height = "1000"/>
+	<SubTexture name="Note Left Miss00012" x="3200" y="3000" width = "800" height = "1000"/>
+
+	<SubTexture name="Note Right Miss00000" x="2400" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00001" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00002" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00003" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00004" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00005" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00006" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00007" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00008" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00009" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00010" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00011" x="3200" y="4000" width = "800" height = "1000"/>
+	<SubTexture name="Note Right Miss00012" x="3200" y="4000" width = "800" height = "1000"/>
+
+	<SubTexture name="AYY00000" x="0" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00001" x="800" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00002" x="1600" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00003" x="2400" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00004" x="3200" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00005" x="3200" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00006" x="3200" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00007" x="3200" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00008" x="3200" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00009" x="3200" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00010" x="3200" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00011" x="3200" y="5000" width = "800" height = "1000"/>
+	<SubTexture name="AYY00012" x="3200" y="5000" width = "800" height = "1000"/>
+</TextureAtlas>

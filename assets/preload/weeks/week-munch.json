@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["City", "munch", [255, 255, 0]],
+	],
+
+	"weekCharacters": [
+		"munch",
+		"bf-pixel",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Applemunch Funkin",
+	"weekBefore": "week-jwfa",
+	"weekName": "Munch Week",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="senpai.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<!-- Edited by Applemunch on GameBanana (Applemunch Studios )-->
+
+	<!-- Bloody John Sprites -->
+	<SubTexture name="John Bloody Down 0" x="0" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 1" x="0" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 2" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 3" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 4" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 5" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 6" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 7" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 8" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 9" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 10" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 11" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 12" x="135" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Down 13" x="135" y="0" width="125" height="164"/>
+
+	<SubTexture name="John Bloody Idle 0" x="270" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 1" x="270" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 2" x="405" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 3" x="405" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 4" x="540" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 5" x="540" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 6" x="675" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 7" x="675" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 8" x="810" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 9" x="810" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 10" x="810" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 11" x="810" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 12" x="810" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Idle 13" x="810" y="0" width="125" height="164"/>
+
+	<SubTexture name="John Bloody Left 0" x="945" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 1" x="945" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 2" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 3" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 4" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 5" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 6" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 7" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 8" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 9" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 10" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 11" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 12" x="1080" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Left 13" x="1080" y="0" width="125" height="164"/>
+
+	<SubTexture name="John Bloody Right 0" x="1215" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 1" x="1215" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 2" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 3" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 4" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 5" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 6" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 7" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 8" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 9" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 10" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 11" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 12" x="1350" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Right 13" x="1350" y="0" width="125" height="164"/>
+
+	<SubTexture name="John Bloody Up 00" x="1485" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 01" x="1485" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 02" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 03" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 04" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 05" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 06" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 07" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 08" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 09" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 10" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 11" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 12" x="1620" y="0" width="125" height="164"/>
+	<SubTexture name="John Bloody Up 13" x="1620" y="0" width="125" height="164"/>
+
+	<!-- John Sprites -->
+	<SubTexture name="John Down 0" x="1755" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 1" x="1755" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 2" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 3" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 4" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 5" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 6" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 7" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 8" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 9" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 10" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 11" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 12" x="1890" y="0" width="125" height="163"/>
+	<SubTexture name="John Down 13" x="1890" y="0" width="125" height="163"/>
+
+	<SubTexture name="John Left 0" x="0" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 1" x="0" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 2" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 3" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 4" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 5" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 6" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 7" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 8" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 9" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 10" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 11" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 12" x="135" y="174" width="125" height="163"/>
+	<SubTexture name="John Left 13" x="135" y="174" width="125" height="163"/>
+
+	<SubTexture name="John Right 0" x="270" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 1" x="270" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 2" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 3" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 4" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 5" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 6" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 7" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 8" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 9" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 10" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 11" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 12" x="405" y="174" width="125" height="163"/>
+	<SubTexture name="John Right 13" x="405" y="174" width="125" height="163"/>
+
+	<SubTexture name="John Up 0" x="540" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 1" x="540" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 2" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 3" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 4" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 5" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 6" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 7" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 8" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 9" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 10" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 11" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 12" x="675" y="174" width="125" height="163"/>
+	<SubTexture name="John Up 13" x="675" y="174" width="125" height="163"/>
+
+	<SubTexture name="John Idle 0" x="810" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 1" x="810" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 2" x="944" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 3" x="944" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 4" x="1078" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 5" x="1078" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 6" x="1212" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 7" x="1212" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 8" x="1346" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 9" x="1346" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 10" x="1480" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 11" x="1480" y="174" width="124" height="163"/>
+	<SubTexture name="John Idle 12" x="1480" y="174" width="124" height="163"/>
+
+</TextureAtlas>

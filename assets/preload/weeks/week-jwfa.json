@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Adventure", "john", [255, 120, 191]],
+		["Doomed", "john", [255, 120, 191]],
+		["Bloodshed", "john", [255, 120, 191]]
+	],
+
+	"weekCharacters": [
+		"john",
+		"bf-pixel",
+		"gf"
+	],
+	"weekBackground": "school",
+
+	"storyName": "Funky Adventure",
+	"weekBefore": "week6",
+	"weekName": "JWFA Week",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
