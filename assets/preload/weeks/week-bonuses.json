@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Doomed", "john", [255, 255, 255]],
+	],
+
+	"weekCharacters": [
+		"munch",
+		"bf-pixel",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "if you see this you're cheating lolololol",
+	"weekBefore": "week-bonuses",
+	"weekName": "Bonus Songs",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}
