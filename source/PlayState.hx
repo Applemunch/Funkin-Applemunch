@@ -996,7 +996,8 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-
+				case 'city' | 'fever' | 'munch':
+					startDialogue(dialogueJson);
 				default:
 					startCountdown();
 			}
@@ -2660,6 +2661,12 @@ class PlayState extends MusicBeatState
 				}
 				char.playAnim(value1, true);
 				char.specialAnim = true;
+
+			case 'Play Animation for Both Characters':
+				boyfriend.playAnim(value1, true);
+				boyfriend.specialAnim = true;
+				dad.playAnim(value2, true);
+				dad.specialAnim = true;
 
 			case 'Camera Follow Pos':
 				var val1:Float = Std.parseFloat(value1);

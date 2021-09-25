@@ -71,6 +71,7 @@ class ChartingState extends MusicBeatState
 		['BG Freaks Expression', "Should be used only in \"school\" Stage!"],
 		['Trigger BG Ghouls', "Should be used only in \"schoolEvil\" Stage!"],
 		['Play Animation', "Plays an animation on a Character,\nonce the animation is completed,\nthe animation changes to Idle\n\nValue 1: Animation to play.\nValue 2: Character (0 = Dad, 1 = BF, 2 = GF)"],
+		['Play Animation for Both Singers','Value 1: Boyfriend animation name\nValue 2: Dad animation name'],
 		['Camera Follow Pos', "Value 1: X\nValue 2: Y\n\nThe camera won't change the follow point\nafter using this, for getting it back\nto normal, leave both values blank."],
 		['Alt Idle Animation', "Sets a speciied suffix after the idle animation name.\nYou can use this to trigger 'idle-alt' if you set\nValue 2 to -alt\n\nValue 1: Character to set (0 = Dad, 1 = BF, 2 = GF)\nValue 2: New suffix (Leave it blank to disable)"],
 		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],
@@ -202,7 +203,7 @@ class ChartingState extends MusicBeatState
 				validScore: false
 			};
 		}
-		
+
 		if(curSection >= _song.notes.length) curSection = _song.notes.length - 1;
 
 		FlxG.mouse.visible = true;
@@ -288,7 +289,7 @@ class ChartingState extends MusicBeatState
 		zoomTxt = new FlxText(10, 10, 0, "Zoom: 1x", 16);
 		zoomTxt.scrollFactor.set();
 		add(zoomTxt);
-		
+
 		updateGrid();
 		super.create();
 	}
@@ -304,7 +305,7 @@ class ChartingState extends MusicBeatState
 	{
 		UI_songTitle = new FlxUIInputText(10, 10, 70, _song.song, 8);
 		blockPressWhileTypingOn.push(UI_songTitle);
-		
+
 		var check_voices = new FlxUICheckBox(10, 25, null, null, "Has voice track", 100);
 		check_voices.checked = _song.needsVoices;
 		// _song.needsVoices = check_voices.checked;
@@ -513,7 +514,7 @@ class ChartingState extends MusicBeatState
 		if(skin == null) skin = '';
 		noteSkinInputText = new FlxUIInputText(player2DropDown.x, player2DropDown.y + 50, 150, skin, 8);
 		blockPressWhileTypingOn.push(noteSkinInputText);
-	
+
 		noteSplashesInputText = new FlxUIInputText(noteSkinInputText.x, noteSkinInputText.y + 35, 150, _song.splashSkin, 8);
 		blockPressWhileTypingOn.push(noteSplashesInputText);
 
@@ -824,7 +825,7 @@ class ChartingState extends MusicBeatState
 	function addChartingUI() {
 		var tab_group_chart = new FlxUI(null, UI_box);
 		tab_group_chart.name = 'Charting';
-		
+
 		#if desktop
 		waveformEnabled = new FlxUICheckBox(10, 90, null, null, "Visible Waveform", 100);
 		waveformEnabled.checked = false;
@@ -955,7 +956,7 @@ class ChartingState extends MusicBeatState
 		// general shit
 		var title:FlxText = new FlxText(UI_box.x + 20, UI_box.y + 20, 0);
 		bullshitUI.add(title);
-		/* 
+		/*
 			var loopCheck = new FlxUICheckBox(UI_box.x + 10, UI_box.y + 50, null, null, "Loops", 100, ['loop check']);
 			loopCheck.checked = curNoteSelected.doesLoop;
 			tooltips.add(loopCheck, {title: 'Section looping', body: "Whether or not it's a simon says style section", style: tooltipType});
@@ -1329,7 +1330,7 @@ class ChartingState extends MusicBeatState
 		strumLine.y = getYfromStrum((Conductor.songPosition - sectionStartTime()) / curZoom % (Conductor.stepCrochet * _song.notes[curSection].lengthInSteps));
 		camPos.y = strumLine.y;
 
-		bpmTxt.text = 
+		bpmTxt.text =
 		Std.string(FlxMath.roundDecimal(Conductor.songPosition / 1000, 2)) + " / " + Std.string(FlxMath.roundDecimal(FlxG.sound.music.length / 1000, 2)) +
 		"\nSection: " + curSection +
 		"\n\nBeat: " + curBeat +
@@ -1475,7 +1476,7 @@ class ChartingState extends MusicBeatState
 		var samplesPerRow:Int = Std.int(((Conductor.stepCrochet * steps * 1.1 * sampleMult) / 16) / curZoom);
 		if(samplesPerRow < 1) samplesPerRow = 1;
 		var waveBytes:Bytes = audioBuffers[checkForVoices].data.toBytes();
-		
+
 		var min:Float = 0;
 		var max:Float = 0;
 		while (index < (waveBytes.length - 1))

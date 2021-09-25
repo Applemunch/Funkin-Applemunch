@@ -1,0 +1,67 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "(literally just appears lol)"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yo wut"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "where'd you come from???"
+		},
+		{
+			"speed": 0.015,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bepo skepeedpepoeepdoled nmfnwejdcoskx"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah that's understandable"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "want to do some singing?"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "no fuck you, you use lmms"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "nah jk beppeopo skedoppa"
+		},
+		{
+			"speed": 0.14,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": ":("
+		}
+	]
+}

@@ -1,8 +1,8 @@
 {
 	"songs": [
-		["Adventure", "john", [0, 220, 0]],
-		["Factory", "john", [0, 220, 0]],
-		["Bloodshed", "john", [0, 220, 0]],
+		["Adventure", "john", [0, 0, 220]],
+		["Factory", "john", [0, 0, 220]],
+		["Bloodshed", "john", [0, 0, 220]],
 	],
 
 	"weekCharacters": [

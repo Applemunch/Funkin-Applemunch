@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Munch_Dialogue.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="munch talk0000" x="600" y="0" width="200" height="200"/>
+	<SubTexture name="munch talk-loop0000" x="0" y="0" width="200" height="200"/>
+	<SubTexture name="munch talk-loop0001" x="200" y="0" width="200" height="200"/>
+	<SubTexture name="munch talk-loop0002" x="400" y="0" width="200" height="200"/>
+	<SubTexture name="munch talk-loop0003" x="600" y="0" width="200" height="200"/>
+	<SubTexture name="munch talk-loop0004" x="600" y="0" width="200" height="200"/>
+	<SubTexture name="munch spunchbob0000" x="0" y="200" width="200" height="200"/>
+	<SubTexture name="munch unamused0000" x="200" y="200" width="200" height="200"/>
+	<SubTexture name="munch spoopy0000" x="400" y="200" width="200" height="200"/>
+</TextureAtlas>
