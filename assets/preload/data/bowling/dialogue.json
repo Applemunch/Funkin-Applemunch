@@ -1,0 +1,74 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "emote3",
+			"text": ".........."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "the hell?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "munch please stop you look like you are about to break my fingers"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "maybe it's because I am????"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "idk I don't have a third phase"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "anyway here's Wonderwall"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "oh yeah also if you're playing on Hard mode say your prayers right now"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok very gamer of you to do applemunch from not friday night funkin"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "coolswag"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "shitmoney"
+		}
+	]
+}

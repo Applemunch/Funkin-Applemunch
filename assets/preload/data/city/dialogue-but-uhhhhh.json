@@ -1,0 +1,95 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "(literally just appears lol)",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "yo wut",
+			"boxState": "normal",
+			"portrait": "munch",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "where'd you come from???",
+			"boxState": "normal",
+			"portrait": "munch",
+			"speed": 0.05
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "actually wait why isn't my dialogue portrait properly aligned"
+		},
+		{
+			"expression": "talk",
+			"text": "b- beep?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.015
+		},
+		{
+			"expression": "talk",
+			"text": "boyfriend from friday night funkin please fuckijgn help",
+			"boxState": "normal",
+			"portrait": "munch",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "i am eternally suffering in the half of my portrait you see and I clearly do not enjoy this at all",
+			"boxState": "normal",
+			"portrait": "munch",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "uhhhhhhhhhhhhh",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.085
+		},
+		{
+			"expression": "talk",
+			"text": "idk how to help ya",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "are you fucking serious I literally had to make a secret .json dialogue file just for the Boyfriend from the hit indie donationware game Friday Night Funkin to not even be able to assist me in my current peril?",
+			"boxState": "normal",
+			"portrait": "munch",
+			"speed": 0.05
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "why must my fictional life be in this kind of state I am literally just a fucking minecraft golden apple if it was on crack and I am\\nexperiencing more suffering than that unfortunate\\nschoolboy from week 6 dear god why must every effort I had put into this mod come up to this?????"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah this is not very coolswag"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "that's agreeable"
+		},
+	]
+}

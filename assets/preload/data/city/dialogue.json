@@ -1,67 +1,67 @@
 {
 	"dialogue": [
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "(literally just appears lol)"
+			"text": "(literally just appears lol)",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "munch",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "yo wut"
+			"text": "yo wut",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "munch"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "munch",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "where'd you come from???"
+			"text": "where'd you come from???",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "munch"
 		},
 		{
+			"expression": "talk",
+			"text": "bepo skepeedpepoeepdoled nmfnwejdcoskx",
+			"boxState": "normal",
 			"speed": 0.015,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "bepo skepeedpepoeepdoled nmfnwejdcoskx"
+			"portrait": "bf"
 		},
 		{
+			"expression": "talk",
+			"text": "yeah that's understandable",
+			"boxState": "normal",
 			"speed": 0.05,
-			"portrait": "munch",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "yeah that's understandable"
+			"portrait": "munch"
 		},
 		{
+			"expression": "talk",
+			"text": "want to do some singing?",
+			"boxState": "normal",
 			"speed": 0.05,
-			"portrait": "munch",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "want to do some singing?"
+			"portrait": "munch"
 		},
 		{
+			"expression": "talk",
+			"text": "no fuck you, you use lmms",
+			"boxState": "normal",
 			"speed": 0.035,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "no fuck you, you use lmms"
+			"portrait": "bf"
 		},
 		{
+			"expression": "talk",
+			"text": "nah jk beppeopo skedoppa",
+			"boxState": "normal",
 			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "nah jk beppeopo skedoppa"
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.14,
-			"portrait": "munch",
+			"expression": "emote1",
+			"text": ":(",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": ":("
+			"speed": 0.14,
+			"portrait": "munch"
 		}
 	]
 }

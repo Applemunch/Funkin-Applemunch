@@ -1,60 +1,60 @@
 {
 	"dialogue": [
 		{
-			"speed": 0.315,
-			"portrait": "munch",
-			"boxState": "normal",
 			"expression": "emote3",
-			"text": ".........."
-		},
-		{
-			"speed": 0.05,
-			"portrait": "bf",
+			"text": "..........",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "the fuck"
+			"speed": 0.315,
+			"portrait": "munch"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
+			"expression": "talk",
+			"text": "the hell?",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "bro you look like you boutta pull a whitty or some shit"
-		},
-		{
 			"speed": 0.05,
-			"portrait": "munch",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "nah"
+			"portrait": "bf"
 		},
 		{
+			"expression": "talk",
+			"text": "munch please stop you look like you are about to break my fingers",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "nah",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "munch"
+		},
+		{
+			"expression": "talk",
+			"text": "LOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLO\\nLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOL",
+			"boxState": "normal",
 			"speed": 0.02,
-			"portrait": "munch",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "LOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLO\\nLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOL"
+			"portrait": "munch"
 		},
 		{
+			"expression": "talk",
+			"text": "k u want a final song? here's your fuckin final song",
+			"boxState": "normal",
 			"speed": 0.05,
-			"portrait": "munch",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "k u want a final song? here's your fuckin final song"
+			"portrait": "munch"
 		},
 		{
+			"expression": "talk",
+			"text": "but this time it's not Ballistic.json",
+			"boxState": "normal",
 			"speed": 0.07,
-			"portrait": "munch",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "but this time it's not Ballistic.json"
+			"portrait": "munch"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "ok very gamer of you to do applemunch from not friday night funkin"
+			"text": "ok very gamer of you to do applemunch from not friday night funkin",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
 		}
 	]
 }

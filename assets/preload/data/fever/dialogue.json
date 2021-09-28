@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yo this kid's on x-games mode"
+		},
+		{
+			"speed": 0.005,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beeeeeeeeeeeeeppopbobpobpppboskeoepeodpdpospvpopsdvolsdpokfdpoajasi0jfoisadJFIJSHFEFJEOgerhnsjfn eJFIOEAJFEIWUOUPOFjoisakskkahagahjmsKDJDKEQ\\nFEKFEfewwppebebebebebebebebeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeepepeepeppeeppppp"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "emote2",
+			"text": "can you stop having a seizure please"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "sorry :("
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "anyway COOL RAP time?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep!"
+		}
+	]
+}

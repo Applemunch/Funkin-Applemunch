@@ -752,6 +752,12 @@ class PlayState extends MusicBeatState
 		if (OpenFlAssets.exists(file)) {
 			dialogue = CoolUtil.coolTextFile(file);
 		}
+
+		var file:String = Paths.txt(songName + '/Dialogue'); //Checks for JWFA dialogue
+		if (OpenFlAssets.exists(file)) {
+			dialogue = CoolUtil.coolTextFile(file);
+		}
+
 		var doof:DialogueBox = new DialogueBox(false, dialogue);
 		// doof.x += 70;
 		// doof.y = FlxG.height * 0.5;
@@ -996,7 +1002,7 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-				case 'city' | 'fever' | 'munch':
+				case 'city' | 'fever' | 'bowling':
 					startDialogue(dialogueJson);
 				default:
 					startCountdown();
