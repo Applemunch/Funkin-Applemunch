@@ -506,7 +506,7 @@ class PlayState extends MusicBeatState
 				var evilSnow:BGSprite = new BGSprite('christmas/evilSnow', -200, 700);
 				add(evilSnow);
 
-			case 'school': //Week 6 - Senpai, Roses
+			case 'school' | 'office': //Week 6 - Senpai, Roses
 				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
 				GameOverSubstate.loopSoundName = 'gameOver-pixel';
 				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
@@ -601,6 +601,22 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+
+			case 'picnic': //Munch Week
+				var sky:BGSprite = new BGSprite('munchBG_sky',0,0,0.1,0.1);
+				add(sky);
+				sky.antialiasing = false;
+				sky.setGraphicSize(Std.int(sky.width * 2));
+
+				var hills:BGSprite = new BGSprite('munchBG_hills',-100,150,0.4,0.4);
+				add(hills);
+				hills.antialiasing = false;
+				hills.setGraphicSize(Std.int(hills.width * 2));
+
+				var grass:BGSprite = new BGSprite('munchBG_grass',0,20,0.5,0.5);
+				grass.antialiasing = false;
+				grass.setGraphicSize(Std.int(grass.width * 3));
+				add(grass);
 		}
 
 		#if LUA_ALLOWED

@@ -63,6 +63,7 @@
 		<library name="week5"         preload="true" />
 		<library name="week6"         preload="true" />
 		<library name="week-jwla"         preload="true" />
+		<library name="week-munch"         preload="true" />
 	</section>
 
 	<section if="NO_PRELOAD_ALL">
@@ -74,6 +75,7 @@
 		<library name="week5"         preload="false" />
 		<library name="week6"         preload="false" />
 		<library name="week-jwla"         preload="false" />
+		<library name="week-munch"         preload="false" />
 	</section>
 
 	<assets path="plugins/"             rename=''               if="VIDEOS_ALLOWED windows" />
@@ -93,6 +95,10 @@
 	<assets path="assets/week5"         library="week5"         exclude="*.mp3" unless="web"/>
 	<assets path="assets/week6"         library="week6"         exclude="*.ogg" if="web"/>
 	<assets path="assets/week6"         library="week6"         exclude="*.mp3" unless="web"/>
+	<assets path="assets/week-jwfa"         library="week-jwfa"         exclude="*.ogg" if="web"/>
+	<assets path="assets/week-jwfa"         library="week-jwfa"         exclude="*.mp3" unless="web"/>
+	<assets path="assets/week-munch"         library="week-munch"         exclude="*.ogg" if="web"/>
+	<assets path="assets/week-munch"         library="week-munch"         exclude="*.mp3" unless="web"/>
 
 	<assets path='example_mods' rename='mods' embed='false' if="MODS_ALLOWED"/>
 	<assets path='art/readme.txt' rename='do NOT readme.txt' />

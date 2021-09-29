@@ -1,20 +1,43 @@
 {
-	"songs": [
-		["City", "munch", [255, 255, 0]],
-	],
-
+	"storyName": "Applemunch Funkin",
+	"hideFreeplay": false,
+	"weekBackground": "picnic",
+	"weekBefore": "week-jwfa",
+	"startUnlocked": true,
 	"weekCharacters": [
 		"munch",
 		"bf-pixel",
 		"gf"
 	],
-	"weekBackground": "stage",
-
-	"storyName": "Applemunch Funkin",
-	"weekBefore": "week-jwfa",
-	"weekName": "Munch Week",
-	"startUnlocked": true,
-
+	"songs": [
+		[
+			"City",
+			"munch",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"Fever",
+			"munch",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"Bowling",
+			"munch",
+			[
+				255,
+				255,
+				0
+			]
+		]
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekName": "Munch Week"
 }

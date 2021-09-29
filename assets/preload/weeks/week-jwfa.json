@@ -1,22 +1,43 @@
 {
-	"songs": [
-		["Adventure", "john", [0, 0, 220]],
-		["Factory", "john", [0, 0, 220]],
-		["Bloodshed", "john", [0, 0, 220]],
-	],
-
+	"storyName": "Funky Adventure",
+	"hideFreeplay": false,
+	"weekBackground": "school",
+	"weekBefore": "week6",
+	"startUnlocked": true,
 	"weekCharacters": [
 		"john",
 		"bf-pixel",
 		"gf"
 	],
-	"weekBackground": "school",
-
-	"storyName": "Funky Adventure",
-	"weekBefore": "week6",
-	"weekName": "JWFA Week",
-	"startUnlocked": true,
-
+	"songs": [
+		[
+			"Adventure",
+			"john",
+			[
+				0,
+				120,
+				220
+			]
+		],
+		[
+			"Factory",
+			"john",
+			[
+				0,
+				120,
+				220
+			]
+		],
+		[
+			"Bloodshed",
+			"john",
+			[
+				175,
+				0,
+				20
+			]
+		]
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekName": "JWFA Week"
 }
