@@ -5,7 +5,7 @@
 	<SubTexture name="idle0001" x="800" y="0" width = "800" height = "1000"/>
 	<SubTexture name="idle0002" x="1600" y="0" width = "800" height = "1000"/>
 	<SubTexture name="idle0003" x="2400" y="0" width = "800" height = "1000"/>
-	<SubTexture name="idle0004" x="2400" y="0" width = "800" height = "1000"/>
+	<SubTexture name="idle0004" x="3200" y="0" width = "800" height = "1000"/>
 	<SubTexture name="idle0005" x="3200" y="0" width = "800" height = "1000"/>
 	<SubTexture name="idle0006" x="3200" y="0" width = "800" height = "1000"/>
 	<SubTexture name="idle0007" x="3200" y="0" width = "800" height = "1000"/>
