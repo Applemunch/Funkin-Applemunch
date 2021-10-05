@@ -617,6 +617,12 @@ class PlayState extends MusicBeatState
 				grass.antialiasing = false;
 				grass.setGraphicSize(Std.int(grass.width * 3));
 				add(grass);
+			
+			case 'office':
+				var bgOffice:BGSprite = new BGSprite('jwfaOffice',0,0,0.8,1);
+				bgOffice.setGraphicSize(Std.int(bgOffice.width * 1.5));
+				bgOffice.antialiasing = false;
+				add(bgOffice);
 		}
 
 		#if LUA_ALLOWED
