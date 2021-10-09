@@ -312,6 +312,8 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'thorns':
 					curStage = 'schoolEvil';
+				case 'city' | 'fever' | 'bowling':
+					curStage = 'picnic';
 				default:
 					curStage = 'stage';
 			}
@@ -613,7 +615,7 @@ class PlayState extends MusicBeatState
 				hills.antialiasing = false;
 				hills.setGraphicSize(Std.int(hills.width * 2));
 
-				var grass:BGSprite = new BGSprite('munchBG_grass',0,20,0.5,0.5);
+				var grass:BGSprite = new BGSprite('munchBG_grass',0,20,1,0.5);
 				grass.antialiasing = false;
 				grass.setGraphicSize(Std.int(grass.width * 3));
 				add(grass);

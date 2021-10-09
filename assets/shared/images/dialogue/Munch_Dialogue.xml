@@ -8,7 +8,12 @@
 	<SubTexture name="munch talk-loop0002" x="400" y="0" width="200" height="200"/>
 	<SubTexture name="munch talk-loop0003" x="600" y="0" width="200" height="200"/>
 	<SubTexture name="munch talk-loop0004" x="600" y="0" width="200" height="200"/>
-	<SubTexture name="munch spunchbob0000" x="0" y="200" width="200" height="200"/>
-	<SubTexture name="munch unamused0000" x="200" y="200" width="200" height="200"/>
-	<SubTexture name="munch spoopy0000" x="400" y="200" width="200" height="200"/>
+	<SubTexture name="munch unamused0000" x="600" y="200" width="200" height="200"/>
+	<SubTexture name="munch unamused-talk0000" x="0" y="200" width="200" height="200"/>
+	<SubTexture name="munch unamused-talk0001" x="200" y="200" width="200" height="200"/>
+	<SubTexture name="munch unamused-talk0002" x="400" y="200" width="200" height="200"/>
+	<SubTexture name="munch unamused-talk0003" x="600" y="200" width="200" height="200"/>
+	<SubTexture name="munch unamused-talk0004" x="600" y="200" width="200" height="200"/>
+	<SubTexture name="munch spunchbob0000" x="0" y="400" width="200" height="200"/>
+	<SubTexture name="munch spoopy0000" x="200" y="400" width="200" height="200"/>
 </TextureAtlas>

@@ -1,8 +1,8 @@
 {
 	"dialogue_pos": "left",
 	"position": [
-		200,
-		140
+		230,
+		150
 	],
 	"scale": 3,
 	"animations": [
@@ -13,8 +13,8 @@
 				0
 			],
 			"idle_offsets": [
-				-1,
-				-11
+				0,
+				0
 			],
 			"loop_name": "munch talk-loop0",
 			"idle_name": "munch talk0"
@@ -33,12 +33,12 @@
 			]
 		},
 		{
-			"loop_name": "munch unamused",
+			"loop_name": "munch unamused-talk0",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "munch unamused",
+			"idle_name": "munch unamused0",
 			"anim": "emote2",
 			"loop_offsets": [
 				0,
@@ -46,12 +46,12 @@
 			]
 		},
 		{
-			"loop_name": "munch spoopy",
+			"loop_name": "munch spoopy0",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "munch spoopy",
+			"idle_name": "munch spoopy0",
 			"anim": "emote3",
 			"loop_offsets": [
 				0,
