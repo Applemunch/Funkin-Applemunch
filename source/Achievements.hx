@@ -26,36 +26,26 @@ class Achievements {
 		["Hyperactive",					"Finish a Song without going Idle.",					false],
 		["Just the Two of Us",			"Finish a Song pressing only two keys.",				false],
 		["Toaster Gamer",				"Have you tried to run the game on a toaster?",			false],
-		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",		 true],
-		["Master Adventurer", "Beat the JWFA week on Hard with no Misses.", false],
-		["Munch is Proud", "Beat Munch's week on Hard with no Misses.",false],
-		["I See Double!", "Play as Munch while fighting Munch.", true],
-		["That's Gotta Hurt","Get shot in the face.",true],
-		["Biting the Hand","Fight Munch as John Williams.",true],
+		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",		 true]
 	];
 
 	public static var achievementsUnlocked:Array<Dynamic> = [ //Save string and Achievement tag + is it unlocked?
-		['friday_night_play', false],
-		['week1_nomiss', false],
-		['week2_nomiss', false],
-		['week3_nomiss', false],
-		['week4_nomiss', false],
-		['week5_nomiss', false],
-		['week6_nomiss', false],
-		['week7_nomiss', false],
-		['ur_bad', false],
-		['ur_good', false],
-		['roadkill_enthusiast', false],
-		['oversinging', false],
-		['hype', false],
-		['two_keys', false],
-		['toastie', false],
-		['debugger', false],
-		['jwfa_nomiss',false], //16 - I moved the custom achievements over here to not conflict
-		['munch_nomiss',false], //17
-		['twomunch',false], //18
-		['ouch',false], //19
-		['munchvjohn',false] //20
+		['friday_night_play', false],	//0
+		['week1_nomiss', false],		//1
+		['week2_nomiss', false],		//2
+		['week3_nomiss', false],		//3
+		['week4_nomiss', false],		//4
+		['week5_nomiss', false],		//5
+		['week6_nomiss', false],		//6
+		['week7_nomiss', false],		//7
+		['ur_bad', false],				//8
+		['ur_good', false],				//9
+		['roadkill_enthusiast', false],	//10
+		['oversinging', false],			//11
+		['hype', false],				//12
+		['two_keys', false],			//13
+		['toastie', false],				//14
+		['debugger', false], 			//15
 	];
 
 	public static var henchmenDeath:Int = 0;

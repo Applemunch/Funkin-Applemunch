@@ -1,7 +1,7 @@
 {
 	"dialogue_pos": "left",
 	"position": [
-		230,
+		0,
 		150
 	],
 	"scale": 3,
@@ -9,11 +9,11 @@
 		{
 			"anim": "talk",
 			"loop_offsets": [
-				0,
+				-230,
 				0
 			],
 			"idle_offsets": [
-				0,
+				-230,
 				0
 			],
 			"loop_name": "munch talk-loop0",
@@ -22,39 +22,39 @@
 		{
 			"loop_name": "munch spunchbob",
 			"idle_offsets": [
-				0,
+				-230,
 				0
 			],
 			"idle_name": "munch spunchbob",
 			"anim": "emote1",
 			"loop_offsets": [
-				0,
+				-230,
 				0
 			]
 		},
 		{
 			"loop_name": "munch unamused-talk0",
 			"idle_offsets": [
-				0,
+				-230,
 				0
 			],
 			"idle_name": "munch unamused0",
 			"anim": "emote2",
 			"loop_offsets": [
-				0,
+				-230,
 				0
 			]
 		},
 		{
 			"loop_name": "munch spoopy0",
 			"idle_offsets": [
-				0,
+				-230,
 				0
 			],
 			"idle_name": "munch spoopy0",
 			"anim": "emote3",
 			"loop_offsets": [
-				0,
+				-230,
 				0
 			]
 		}

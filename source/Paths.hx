@@ -24,15 +24,50 @@ class Paths
 
 	#if MODS_ALLOWED
 	#if (haxe >= "4.0.0")
-	public static var customImagesLoaded:Map<String, FlxGraphic> = new Map();
+	public static var ignoreModFolders:Map<String, Bool> = new Map();
+	public static var customImagesLoaded:Map<String, Bool> = new Map();
 	public static var customSoundsLoaded:Map<String, Sound> = new Map();
 	#else
-	public static var customImagesLoaded:Map<String, FlxGraphic> = new Map<String, FlxGraphic>();
+	public static var ignoreModFolders:Map<String, Bool> = new Map<String, Bool>();
+	public static var customImagesLoaded:Map<String, Bool> = new Map<String, Bool>();
 	public static var customSoundsLoaded:Map<String, Sound> = new Map<String, Sound>();
 	#end
 	#end
 
+	public static function destroyLoadedImages(ignoreCheck:Bool = false) {
+		#if MODS_ALLOWED
+		if(!ignoreCheck && ClientPrefs.imagesPersist) return; //If there's 20+ images loaded, do a cleanup just for preventing a crash
+
+		for (key in customImagesLoaded.keys()) {
+			var graphic:FlxGraphic = FlxG.bitmap.get(key);
+			if(graphic != null) {
+				graphic.bitmap.dispose();
+				graphic.destroy();
+				FlxG.bitmap.removeByKey(key);
+			}
+		}
+		Paths.customImagesLoaded.clear();
+		#end
+	}
+
+	static public var currentModDirectory:String = null;
 	static var currentLevel:String;
+	static public function getModFolders()
+	{
+		#if MODS_ALLOWED
+		ignoreModFolders.set('characters', true);
+		ignoreModFolders.set('custom_events', true);
+		ignoreModFolders.set('custom_notetypes', true);
+		ignoreModFolders.set('data', true);
+		ignoreModFolders.set('songs', true);
+		ignoreModFolders.set('music', true);
+		ignoreModFolders.set('sounds', true);
+		ignoreModFolders.set('videos', true);
+		ignoreModFolders.set('images', true);
+		ignoreModFolders.set('stages', true);
+		ignoreModFolders.set('weeks', true);
+		#end
+	}
 
 	static public function setCurrentLevel(name:String)
 	{
@@ -71,7 +106,7 @@ class Paths
 		return '$library:assets/$library/$file';
 	}
 
-	inline public static function getPreloadPath(file:String)
+	inline public static function getPreloadPath(file:String = '')
 	{
 		return 'assets/$file';
 	}
@@ -223,7 +258,7 @@ class Paths
 	inline static public function fileExists(key:String, type:AssetType, ?ignoreMods:Bool = false, ?library:String)
 	{
 		#if MODS_ALLOWED
-		if(FileSystem.exists(mods(key))) {
+		if(FileSystem.exists(mods(currentModDirectory + '/' + key)) || FileSystem.exists(mods(key))) {
 			return true;
 		}
 		#end
@@ -269,52 +304,64 @@ class Paths
 	}
 	
 	#if MODS_ALLOWED
-	static private function addCustomGraphic(key:String):FlxGraphic {
+	static public function addCustomGraphic(key:String):FlxGraphic {
 		if(FileSystem.exists(modsImages(key))) {
 			if(!customImagesLoaded.exists(key)) {
-				var newGraphic:FlxGraphic = FlxGraphic.fromBitmapData(BitmapData.fromFile(modsImages(key)));
+				var newBitmap:BitmapData = BitmapData.fromFile(modsImages(key));
+				var newGraphic:FlxGraphic = FlxGraphic.fromBitmapData(newBitmap, false, key);
 				newGraphic.persist = true;
-				customImagesLoaded.set(key, newGraphic);
+				FlxG.bitmap.addGraphic(newGraphic);
+				customImagesLoaded.set(key, true);
 			}
-			return customImagesLoaded.get(key);
+			return FlxG.bitmap.get(key);
 		}
 		return null;
 	}
 
-	inline static public function mods(key:String) {
+	inline static public function mods(key:String = '') {
 		return 'mods/' + key;
 	}
 
 	inline static public function modsJson(key:String) {
-		return mods('data/' + key + '.json');
+		return modFolders('data/' + key + '.json');
 	}
 
 	inline static public function modsVideo(key:String) {
-		return mods('videos/' + key + '.' + VIDEO_EXT);
+		return modFolders('videos/' + key + '.' + VIDEO_EXT);
 	}
 
 	inline static public function modsMusic(key:String) {
-		return mods('music/' + key + '.' + SOUND_EXT);
+		return modFolders('music/' + key + '.' + SOUND_EXT);
 	}
 
 	inline static public function modsSounds(key:String) {
-		return mods('sounds/' + key + '.' + SOUND_EXT);
+		return modFolders('sounds/' + key + '.' + SOUND_EXT);
 	}
 
 	inline static public function modsSongs(key:String) {
-		return mods('songs/' + key + '.' + SOUND_EXT);
+		return modFolders('songs/' + key + '.' + SOUND_EXT);
 	}
 
 	inline static public function modsImages(key:String) {
-		return mods('images/' + key + '.png');
+		return modFolders('images/' + key + '.png');
 	}
 
 	inline static public function modsXml(key:String) {
-		return mods('images/' + key + '.xml');
+		return modFolders('images/' + key + '.xml');
 	}
 
 	inline static public function modsTxt(key:String) {
-		return mods('images/' + key + '.txt');
+		return modFolders('images/' + key + '.txt');
+	}
+
+	static public function modFolders(key:String) {
+		if(currentModDirectory != null && currentModDirectory.length > 0) {
+			var fileToCheck:String = mods(currentModDirectory + '/' + key);
+			if(FileSystem.exists(fileToCheck)) {
+				return fileToCheck;
+			}
+		}
+		return 'mods/' + key;
 	}
 	#end
 }

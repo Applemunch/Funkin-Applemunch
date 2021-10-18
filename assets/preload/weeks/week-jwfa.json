@@ -2,7 +2,7 @@
 	"storyName": "Funky Adventure",
 	"hideFreeplay": false,
 	"weekBackground": "school",
-	"weekBefore": "week6",
+	"weekBefore": "",
 	"startUnlocked": true,
 	"weekCharacters": [
 		"john",
