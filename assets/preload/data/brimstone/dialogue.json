@@ -1,0 +1,67 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "oh hey, didn't see ya there"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "welcome to hell, enjoy your stay"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "MUNCH WHAT THE HELL DO YOU MEAN\\nWELCOME TO HELL!?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "emote2",
+			"text": "are you stupid or something? this is literally\\nhell."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "we are in hell for no explicit reason, probably\\nbecause you picked Brimstone in the Freeplay\\nmenu"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "who said I picked it in the freeplay menu?"
+		},
+		{
+			"speed": 0.085,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "emote2",
+			"text": "you are serious right now, right?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Roland GM.sf2, instrument #80 of patch 0,\\nSquare Wave, c5 note"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "munch",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah now I know why we're in hell"
+		}
+	]
+}

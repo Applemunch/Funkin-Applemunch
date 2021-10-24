@@ -1,0 +1,9 @@
+{
+	"directory": "week-munch",
+	"defaultZoom": 1,
+	"isPixelStage": false,
+
+	"boyfriend": [820, 100],
+	"girlfriend": [400, 130],
+	"opponent": [100, 100]
+}

@@ -625,18 +625,22 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
-			case 'picnic': //Munch Week
-				var sky:BGSprite = new BGSprite('munchBG_sky',0,0,0.1,0.1);
+			case 'picnic' | 'hellpicnic': //Munch Week
+				var assetprefix:String = '';
+				if (curStage == 'hellpicnic') {
+					assetprefix = 'hell';
+				}
+				var sky:BGSprite = new BGSprite(assetprefix + 'munchBG_sky',0,0,0.1,0.1);
 				add(sky);
 				sky.antialiasing = false;
 				sky.setGraphicSize(Std.int(sky.width * 2));
 
-				var hills:BGSprite = new BGSprite('munchBG_hills',-100,150,0.4,0.4);
+				var hills:BGSprite = new BGSprite(assetprefix + 'munchBG_hills',-100,150,0.4,0.4);
 				add(hills);
 				hills.antialiasing = false;
 				hills.setGraphicSize(Std.int(hills.width * 2));
 
-				var grass:BGSprite = new BGSprite('munchBG_grass',0,20,0.8,0.5);
+				var grass:BGSprite = new BGSprite(assetprefix + 'munchBG_grass',0,20,0.8,0.5);
 				grass.antialiasing = false;
 				grass.setGraphicSize(Std.int(grass.width * 3));
 				add(grass);
@@ -1028,7 +1032,7 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-				case 'city' | 'fever' | 'bowling':
+				case 'city' | 'fever' | 'bowling' | 'brimstone':
 					startDialogue(dialogueJson);
 				default:
 					startCountdown();

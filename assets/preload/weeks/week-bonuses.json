@@ -1,11 +1,11 @@
 {
 	"songs": [
-		["Doomed", "john", [255, 255, 255]]
+		["Brimstone", "munch", [255, 255, 255]]
 	],
 
 	"weekCharacters": [
-		"munch",
-		"bf-pixel",
+		"",
+		"bf",
 		"gf"
 	],
 	"weekBackground": "stage",
